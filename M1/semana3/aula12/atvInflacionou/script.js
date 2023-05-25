@@ -4,10 +4,10 @@ var alimento = prompt('Digite o nome do alimento')
 //2 - Verificar se o alimento inserido existe na feira (Tomate, laranja, abacaxi e limão)
 if (alimento == 'tomate' || alimento == 'laranja' || alimento == 'abacaxi' || alimento == 'limão') {
   //3- se o alimento existir, perguntar o preço da semana anterior
-  var valorPassado = prompt('Qual o valor do alimento da semana passada?')
+  var valorPassado = prompt('Qual era valor do alimento ' + alimento + ' na semana passada?')
 
   //4- perguntar tambem o valor do alimento na semana atual
-  var valorAtual = prompt('Qual o valor do alimento da semana atual?')
+  var valorAtual = prompt('Qual é valor do alimento ' + alimento + ' essa semana?')
 
   //5 - É necessario transformar as variaveis valorPassado e valorAtual em numero
   var numberValorAtual = Number(valorAtual)
