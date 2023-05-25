@@ -1,0 +1,55 @@
+/* Reset CSS */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffb200;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
+    sans-serif;
+}
+.pai {
+  width: 50%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 8px -8px 7px #10101080;
+}
+
+.linha {
+  width: 100%;
+  height: 50%;
+  display: flex;
+}
+
+p {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  text-transform: uppercase;
+  padding-top: 15%;
+}
+
+.conteudo-1 {
+  background-color: blue;
+}
+.conteudo-2 {
+  background-color: red;
+}
+.conteudo-3 {
+  background-color: green;
+}
+.conteudo-4 {
+  background-color: purple;
+}

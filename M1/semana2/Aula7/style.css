@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
+    sans-serif;
+}
+body {
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+section {
+  width: 90%;
+  padding: 20px 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+h2 {
+  text-transform: uppercase;
+  color: brown;
+}
+div {
+  width: 100%;
+  margin: 16px;
+  border-radius: 8px;
+  padding: 16px;
+
+  box-shadow: 0px 3px 4px 2px rgb(200, 200, 200);
+}
+
+/* Exemplo de interação do usuário com a página */
+
+button {
+  border: 0px;
+  border-radius: 4px;
+
+  width: 64px;
+  height: 32px;
+
+  color: black;
+  background-color: lightgray;
+  transition: all 0.3s;
+}
+/* hover */
+
+button:hover {
+  background-color: #ffb200;
+  transform: scale(2.2);
+}
+
+/* Active */
+button:active {
+  background-color: brown;
+  color: white;
+  transform: scale(2);
+}
+
+/* Exemplo de interação com fatores externos (histórico de navegação) */
+
+/* Active */
+a:active {
+  color: lightseagreen;
+}
+
+/* Visited */
+a:visited {
+  color: pink;
+}
+
+/* Exemplo de regras em casos especiais de ordenação: */
+
+li {
+  margin: 2px;
+  padding: 8px 16px;
+  list-style-type: none;
+  background-color: rgb(187, 187, 193);
+}
+
+/*first-child  */
+/* li:first-child {
+  background-color: brown;
+  color: white;
+} */
+
+/*last-child  */
+/* li:last-child {
+  background-color: tomato;
+  color: white;
+} */
+
+/*nth-child  */
+
+/* li:nth-child(3) {
+  background-color: black;
+  color: #ffb200;
+} */
+
+/* nth-child(odd) = impares */
+li:nth-child(odd) {
+  background-color: pink;
+}
+
+/* even = pares */
+li:nth-child(even) {
+  background-color: rgb(249, 132, 152);
+}
+
+/* Xn + Y = seleciona de x em x a partir de y */
+/* li:nth-child(3n + 1) {
+  background-color: black;
+  color: #ffb200;
+} */
+
+/* p::first-letter {
+  font-size: 50px;
+} */
+
+.link::after {
+  content: '😍';
+}
+
+.pins li::before {
+  content: '🚩';
+  font-size: 50px;
+}
+
+.selection::selection {
+  background-color: black;
+  color: #ffb200;
+  transform: scale(2);
+}
