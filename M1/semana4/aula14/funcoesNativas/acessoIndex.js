@@ -12,8 +12,8 @@ console.log(nome[0])
 console.log(nome[2])
 console.log(nome[27])
 
-//indexOf: Retorna a posição(index) de um elemento em uma string com base na string passada (Um tremendo fofoqueiro)
+//indexOf: Retorna a posição(index) de um elemento em uma string com base na string passada como argumento (Um tremendo fofoqueiro)
 
-console.log(nome.indexOf('fiz'))
+console.log(nome.indexOf('fiz')) //
 
 //charCodeAt: retorna o código de um elemento baseado no padrão utf-16 (Tabela ASCII)
